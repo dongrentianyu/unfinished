@@ -1,19 +1,19 @@
-description = "This is my new Hugo FixIt site"
+description = "测试一下hugo"
 keywords = ["Hugo", "FixIt"]
 
 [author]
-name = "Lruihao"
+name = "马不前"
 email = ""
-link = "https://github.com/Lruihao"
-avatar = "https://lruihao.cn/images/avatar.jpg"
+link = ""
+avatar = "https://api.iconify.design/game-icons:dead-eye.svg"
 
 [app]
-title = "Hugo FixIt Blog"
+title = "Bones"
 
 [header]
 
 [header.title]
-logo = "/hugo-fixit-starter/images/fixit.min.svg"
+logo = "https://api.iconify.design/game-icons:dead-eye.svg"
 
 [home]
 
@@ -21,6 +21,4 @@ logo = "/hugo-fixit-starter/images/fixit.min.svg"
 enable = true
 
 [customPartials]
-head = [
-  "inject/fixit-docs-bookmark.html",
-]
+head = ["inject/fixit-docs-bookmark.html"]

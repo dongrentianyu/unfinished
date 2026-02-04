@@ -54,3 +54,16 @@ weight = 3
 
 [main.params]
 icon = "fa-solid fa-tags"
+
+[[main]]
+identifier = "topic"
+parent = ""
+pre = ""
+post = ""
+name = "Topic"
+url = "/topic/"
+title = ""
+weight = 3
+
+[main.params]
+icon = "fa-brands fa-readme"
