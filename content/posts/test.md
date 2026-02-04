@@ -1,13 +1,14 @@
 ---
-title: Hello World
-date: 2026-02-04T04:07:53.310Z
+title: test
+date: 2026-02-02
 tags:
   - hello
   - FixIt
 categories:
   - hello
-collections: test
-# See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
+collections:
+  - test
+  - 你好
 ---
 
 Welcome to Hugo FixIt! This is your very first post.

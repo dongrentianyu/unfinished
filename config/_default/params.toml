@@ -278,11 +278,11 @@ gravatarEmail = ""
 # URL of avatar shown in home page, default is author's avatar
 avatarURL = ""
 # FixIt 0.2.17 | NEW identifier of avatar menu link
-avatarMenu = ""
+avatarMenu = "tags"
 # title shown in home page (HTML format is supported)
-title = "你好，世界"
+title = "Bones"
 # subtitle shown in home page (HTML format is supported)
-subtitle = "我不好，这个异界"
+subtitle = "我是天空 降下对我的惩罚 你遗传给我的疾病 在风中弑杀我的黑夜"
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
@@ -796,12 +796,12 @@ hiddenFromRelated = false
 # FixIt 0.3.10 | NEW whether to hide a page from RSS, Atom and JSON feed
 hiddenFromFeed = false
 # whether to enable twemoji
-twemoji = false
+twemoji = true
 # FixIt 0.2.18 | CHANGED whether to enable lightgallery
 # set to true, images in the content will be shown as the gallery if the image has a title, e.g. ![alt](src "title")
 # set to "force", images in the content will be forced to shown as the gallery regardless of the image has a title or not, e.g. ![alt](src)
 # TODO change gallery engine in the future
-lightgallery = false
+lightgallery = true
 # whether to enable the ruby extended syntax
 ruby = true
 # whether to enable the fraction extended syntax
@@ -809,22 +809,24 @@ fraction = true
 # whether to enable the fontawesome extended syntax
 fontawesome = true
 # license info (HTML format is supported)
-license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+# <a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
+# 先隐藏吧，版权这类事情还是后面再说吧
+license = ''
 # whether to show link to Raw Markdown content of the post
 linkToMarkdown = true
 # FixIt 0.3.0 | NEW whether to show link to view source code of the post
-linkToSource = true
+linkToSource = false
 # FixIt 0.3.0 | NEW whether to show link to edit the post
-linkToEdit = true
+linkToEdit = false
 # FixIt 0.3.0 | NEW whether to show link to report issue for the post
-linkToReport = true
+linkToReport = false
 # FixIt 0.3.20 | NEW whether to show link to view the post in VSCode
 linkToVscode = true
 # FixIt 0.3.10 | CHANGED Page style ["narrow", "normal", "wide", ...]
-pageStyle = "normal"
+pageStyle = "wide"
 # FixIt 0.2.17 | CHANGED Auto Bookmark Support
 # If true, save the reading progress when closing the page.
-autoBookmark = false
+autoBookmark = true
 # FixIt 0.4.0 | NEW whether to show the last modified time
 showLastmod = true
 # FixIt 0.2.17 | NEW whether to enable wordCount
@@ -834,13 +836,15 @@ readingTime = true
 # FixIt 0.2.17 | NEW end of post flag
 endFlag = ""
 # FixIt 0.2.18 | NEW whether to enable instant.page
+# todo 这个还不清楚是啥意思，可能是加上提交代码链接，但感觉没必要
 instantPage = false
 # FixIt 0.3.0 | NEW whether to enable collection list at the sidebar
-collectionList = false
+collectionList = true
 # FixIt 0.3.0 | NEW whether to enable collection navigation at the end of the post
+# 这个就不需要了，不然太占空间了
 collectionNavigation = false
 
-# FixIt 0.2.15 | NEW Repost config
+# FixIt 0.2.15 | NEW Repost config 转载配置
 [page.repost]
 enable = false
 url = ""
@@ -1002,11 +1006,11 @@ mode = "static"
 
 # Social share links in post page
 [page.share]
-enable = true
+enable = false
 Twitter = true
 Facebook = true
 Linkedin = false
-Whatsapp = false
+Whatsapp = true
 Pinterest = false
 Tumblr = false
 HackerNews = false
@@ -1017,7 +1021,7 @@ Xing = false
 Line = false
 Instapaper = false
 Pocket = false
-Flipboard = false
+Flipboard = true
 Weibo = true
 Myspace = false
 Blogger = false
