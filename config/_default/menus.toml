@@ -4,19 +4,8 @@
 # -------------------------------------------------------------------------------------
 
 [[main]]
-identifier = "classification"
-parent = ""
-pre = ""
-post = ""
-name = "Classification"
-title = "分类"
-weight = 1
-[main.params]
-icon = "fa-solid fa-crosshairs"
-
-[[main]]
 identifier = "archives"
-parent = "classification"
+parent = ""
 # you can add extra information before the name (HTML format is supported), such as icons
 pre = ""
 # you can add extra information after the name (HTML format is supported), such as icons
@@ -42,7 +31,7 @@ divided = false
 
 [[main]]
 identifier = "categories"
-parent = "classification"
+parent = ""
 pre = ""
 post = ""
 name = "Categories"
@@ -55,7 +44,7 @@ icon = "fa-solid fa-folder-tree"
 
 [[main]]
 identifier = "tags"
-parent = "classification"
+parent = ""
 pre = ""
 post = ""
 name = "Tags"
@@ -65,29 +54,3 @@ weight = 3
 
 [main.params]
 icon = "fa-solid fa-tags"
-
-[[main]]
-identifier = "topic"
-parent = "classification"
-pre = ""
-post = ""
-name = "Topic"
-url = "/topic/"
-title = ""
-weight = 4
-
-[main.params]
-icon = "fa-brands fa-gripfire"
-
-[[main]]
-identifier = "collections"
-parent = "classification"
-pre = ""
-post = ""
-name = "Collections"
-url = "/collections/"
-title = ""
-weight = 5
-
-[main.params]
-icon = "fa-solid fa-grip"
