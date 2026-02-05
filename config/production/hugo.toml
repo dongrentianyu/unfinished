@@ -1,2 +1,5 @@
 title = "Unfinished"
 baseURL = "/"
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-fixit/FixIt"
