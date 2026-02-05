@@ -55,7 +55,7 @@ avatar = "https://api.iconify.design/game-icons:dead-eye.svg"
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
 # e.g. "https://github.com/hugo-fixit/docs"
-repo = "https://github.com/dongrentianyu/bones-hugo"
+repo = "https://github.com/dongrentianyu/unfinished"
 branch = "main"
 # the content directory path relative to the root of the repository
 dir = "content"
@@ -66,7 +66,7 @@ issueTpl = "title=[BUG]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0
 # App icon config
 [app]
 # optional site title override for the app when added to an iOS home screen or Android launcher
-title = "Bones"
+title = "Unfinished"
 # whether to omit favicon resource links
 noFavicon = false
 # modern SVG favicon to use in place of older style .png and .ico files
@@ -283,7 +283,7 @@ avatarURL = ""
 # FixIt 0.2.17 | NEW identifier of avatar menu link
 avatarMenu = ""
 # title shown in home page (HTML format is supported)
-title = "Bones"
+title = "Unfinished"
 # subtitle shown in home page (HTML format is supported)
 subtitle = "一世风尘，也只如雪泥打他人脚底经过"
 # whether to use typeit animation for subtitle

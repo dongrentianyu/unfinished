@@ -1,4 +1,4 @@
-module github.com/dongrentianyu/bones-hugo
+module github.com/dongrentianyu/unfinished
 
 go 1.19
 
