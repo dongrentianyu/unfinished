@@ -1,6 +1,12 @@
 {
-  "env": {
-    "GO_VERSION": "1.19",
-    "HUGO_VERSION": "0.153.0"
-  }
+  "github": {
+    "silent": false
+  },
+  "build": {
+    "env": {
+      "GO_VERSION": "1.19",
+      "HUGO_VERSION": "0.153.0"
+    }
+  },
+  "installCommand": "go version || (yum install -y golang || apk add go)"
 }
