@@ -1,0 +1,6 @@
+{
+  "env": {
+    "GO_VERSION": "1.19",
+    "HUGO_VERSION": "0.153.0"
+  }
+}
