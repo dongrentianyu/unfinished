@@ -39,3 +39,30 @@ applyFilter = false
 name = 'fragmentrefs'
 type = 'fragments'
 weight = 80
+
+[[indices]]
+applyFilter = false
+cardinalityThreshold = 0
+name = 'categories'
+pattern = ''
+toLower = false
+type = 'basic'
+weight = 80
+
+[[indices]]
+applyFilter = false
+cardinalityThreshold = 0
+name = 'topics'
+pattern = ''
+toLower = false
+type = 'basic'
+weight = 80
+
+[[indices]]
+applyFilter = false
+cardinalityThreshold = 0
+name = 'collections'
+pattern = ''
+toLower = false
+type = 'basic'
+weight = 80
