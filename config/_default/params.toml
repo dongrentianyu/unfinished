@@ -4,9 +4,9 @@
 # -------------------------------------------------------------------------------------
 
 # FixIt 0.2.15 | CHANGED FixIt theme version
-version = "0.4.2" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
+version = "0.4.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "这是一个测试网站，测试hugo"
+description = ""
 # site keywords
 keywords = []
 # site default theme ["light", "dark", "auto"]
@@ -19,23 +19,21 @@ dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
 images = []
 # FixIt 0.2.12 | NEW enable PWA
-enablePWA = true
+enablePWA = false
 # FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
-externalIcon = true
+externalIcon = false
 # FixIt 0.3.13 | NEW whether to capitalize titles
 capitalizeTitles = true
 # FixIt 0.3.0 | NEW whether to add site title to the title of every page
 # remember to set up your site title in `hugo.toml` (e.g. title = "title")
-# 这个设置就是可以让文章标题显示在tab标签页上
 withSiteTitle = true
 # FixIt 0.3.0 | NEW title delimiter when the site title is be added to the title of every page
-# 这个设置就是topic-game那一块，理论上来说没必要加上这个短横线
-titleDelimiter = "|"
+titleDelimiter = "-"
 # FixIt 0.3.0 | NEW whether to add site subtitle to the title of index page
 # remember to set up your site subtitle by `params.header.subtitle.name`
 indexWithSubtitle = false
 # FixIt 0.3.13 | NEW whether to show summary in plain text
-summaryPlainify = true
+summaryPlainify = false
 # FixIt 0.4.0 | NEW whether to enable merging missing translations from other languages
 # when set to true, missing translations from other languages will be merged and displayed
 # default is false for better performance, especially for single-language sites
@@ -47,15 +45,15 @@ disableThemeInject = false
 
 # Author Configuration
 [author]
-name = "马不前"
+name = ""
 email = ""
 link = ""
-avatar = "https://api.iconify.design/game-icons:dead-eye.svg"
+avatar = ""
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
 # e.g. "https://github.com/hugo-fixit/docs"
-repo = "https://github.com/dongrentianyu/unfinished"
+repo = ""
 branch = "main"
 # the content directory path relative to the root of the repository
 dir = "content"
@@ -66,11 +64,11 @@ issueTpl = "title=[BUG]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0
 # App icon config
 [app]
 # optional site title override for the app when added to an iOS home screen or Android launcher
-title = "Unfinished"
+title = "FixIt"
 # whether to omit favicon resource links
 noFavicon = false
 # modern SVG favicon to use in place of older style .png and .ico files
-svgFavicon = "https://api.iconify.design/game-icons:dead-eye.svg"
+svgFavicon = ""
 # Safari mask icon color
 iconColor = "#5bbad5"
 # Windows v8-10 tile color
@@ -83,13 +81,13 @@ dark = "#252627"
 
 # Search config
 [search]
-enable = true
+enable = false
 # type of search engine ["algolia", "fuse", "cse", "post-chat"]
 type = "fuse"
 # max index length of the chunked content
 contentLength = 4000
 # placeholder of the search bar
-placeholder = "可以搜索文章内容"
+placeholder = ""
 # max number of results length
 maxResultLength = 10
 # snippet length of the result
@@ -109,13 +107,13 @@ searchKey = ""
 # FixIt 0.2.17 | NEW https://fusejs.io/api/options.html
 [search.fuse]
 isCaseSensitive = false
-minMatchCharLength = 1
+minMatchCharLength = 2
 findAllMatches = false
 location = 0
 threshold = 0.3
 distance = 100
 ignoreLocation = false
-useExtendedSearch = true
+useExtendedSearch = false
 ignoreFieldNorm = false
 
 # FixIt 0.3.16 | NEW Custom Search Engine (CSE)
@@ -143,7 +141,7 @@ mobileMode = "auto"
 # Header title config
 [header.title]
 # URL of the LOGO
-logo = "https://api.iconify.design/game-icons:dead-eye.svg"
+logo = ""
 # title name
 name = ""
 # you can add extra information before the name (HTML format is supported), such as icons
@@ -156,15 +154,15 @@ typeit = false
 # FixIt 0.2.12 | NEW Header subtitle config
 [header.subtitle]
 # subtitle name
-name = "活在别样的生活里"
+name = ""
 # whether to use typeit animation for subtitle name
-typeit = true
+typeit = false
 
 # FixIt 0.2.18 | NEW Breadcrumb config
 [breadcrumb]
-enable = true
-sticky = true
-showHome = true
+enable = false
+sticky = false
+showHome = false
 # FixIt 0.3.13 | NEW
 separator = "/"
 capitalize = true
@@ -177,9 +175,8 @@ inSection = false
 reverse = false
 
 # Footer config
-# 先关闭，后面再看是否需要打开，虽然我觉得没什么太大的用处，除了表示这是由hugo和fixit组合搭建的之外
 [footer]
-enable = false
+enable = true
 # whether to show copyright info
 copyright = true
 # whether to show the author
@@ -216,18 +213,17 @@ statistics = 0
 visitor = 0
 beian = 0
 
-# beian是备案的意思
 # FixIt 0.3.0 | NEW Archives page config (all pages of posts type)
 [archives]
 # special amount of posts in archives page
-paginate = 10
+paginate = 20
 # date format (month and day)
 dateFormat = "01-02"
 
 # Section page config (all pages in section)
 [section]
 # special amount of pages in each section page
-paginate = 10
+paginate = 20
 # date format (month and day)
 dateFormat = "01-02"
 
@@ -241,7 +237,7 @@ fullText = false
 # Term list (category or tag) page config
 [list]
 # special amount of posts in each list page
-paginate = 10
+paginate = 20
 # date format (month and day)
 dateFormat = "01-02"
 
@@ -258,11 +254,11 @@ archives = true
 section = true
 list = true
 days = 30
-maxCount = 5
+maxCount = 10
 
 # FixIt 0.2.17 | NEW TagCloud config for tags page
 [tagcloud]
-enable = true
+enable = false
 min = 14 # Minimum font size in px
 max = 32 # Maximum font size in px
 peakCount = 10 # Maximum count of posts per tag
@@ -273,9 +269,9 @@ orderby = "name" # Order of tags, optional values: ["name", "count"]
 
 # Home page profile
 [home.profile]
-enable = true
+enable = false
 # FixIt 0.4.0 | NEW Whether to show profile and content only in the first home page
-onlyFirstPage = true
+onlyFirstPage = false
 # Gravatar Email for preferred avatar in home page
 gravatarEmail = ""
 # URL of avatar shown in home page, default is author's avatar
@@ -283,26 +279,25 @@ avatarURL = ""
 # FixIt 0.2.17 | NEW identifier of avatar menu link
 avatarMenu = ""
 # title shown in home page (HTML format is supported)
-title = "Unfinished"
+title = ""
 # subtitle shown in home page (HTML format is supported)
-subtitle = "一世风尘，也只如雪泥打他人脚底经过"
+subtitle = ""
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
 social = true
 # disclaimer (HTML format is supported)
-# 免责声明，可以在主页下面显示一行小字，但看起来似乎也没必要
 disclaimer = ""
 
 # Home page posts
 [home.posts]
 enable = true
 # special amount of posts in each home posts page
-paginate = 5
+paginate = 6
 
 # FixIt 0.2.16 | CHANGED Social config about the author
 [social]
-GitHub = "dongrentianyu"
+GitHub = ""
 Linkedin = ""
 Twitter = ""
 Instagram = ""
@@ -368,11 +363,16 @@ ORCID = ""
 Liberapay = ""
 Ko-Fi = ""
 BuyMeaCoffee = ""
+Linktree = ""
 QQ = ""
 QQGroup = "" # https://qun.qq.com/join.html
 Diaspora = ""
+CSDN = ""
 Discord = ""
 DiscordInvite = ""
+Lichess = ""
+Pleroma = ""
+Kaggle = ""
 MediaWiki = ""
 Plume = ""
 HackTheBox = ""
@@ -384,7 +384,7 @@ TikTok = ""
 Credly = ""
 Bluesky = ""
 Phone = ""
-Email = "spectre-submarine@qq.com"
+Email = ""
 RSS = true
 
 # custom social links like the following
@@ -404,7 +404,7 @@ speed = 100
 # blinking speed of the cursor (measured in milliseconds)
 cursorSpeed = 1000
 # character used for the cursor (HTML format is supported)
-cursorChar = " ."
+cursorChar = "|"
 # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
 duration = -1
 # FixIt 0.2.18 | NEW whether your strings will continuously loop after completing
@@ -464,7 +464,7 @@ name = "FixIt"
 # FixIt 0.2.12 | NEW PanguJS config
 [pangu]
 # For Chinese writing
-enable = true
+enable = false
 selector = "article" # FixIt 0.2.17 | NEW
 
 # FixIt 0.2.12 | NEW Watermark config
@@ -493,7 +493,7 @@ fontFamily = "inherit"
 # FixIt 0.3.10 | NEW Busuanzi count
 [busuanzi]
 # whether to enable busuanzi count
-enable = true
+enable = false
 # busuanzi count core script source. Default is https://vercount.one/js
 source = "https://vercount.one/js"
 # whether to show the site views
@@ -566,7 +566,7 @@ data_token = ""
 
 # Cookie consent config
 [cookieconsent]
-enable = false
+enable = true
 
 # text strings used for Cookie consent banner
 [cookieconsent.content]
@@ -608,25 +608,24 @@ style = "" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "
 [backToTop]
 enable = true
 # FixIt 0.4.0 | CHANGED whether to show the scroll percent indicator around the back to top button
-scrollpercent = true
+scrollpercent = false
 
 # FixIt 0.2.16 | NEW Reading progress bar
-# 这个看后面是否真的需要吧，看情况调整，虽然我觉得有个进度条确实是不错
 [readingProgress]
-enable = true
+enable = false
 # Available values: ["left", "right"]
 start = "left"
 # Available values: ["top", "bottom"]
 position = "top"
 reversed = false
-light = "black"
+light = ""
 dark = ""
-height = "3px"
+height = "2px"
 
 # FixIt 0.2.17 | NEW Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 [pace]
-enable = true
+enable = false
 # All available colors:
 # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
 color = "blue"
@@ -692,7 +691,7 @@ enable = false
 # FixIt 0.3.10 | NEW Global Feed config for RSS, Atom and JSON feed.
 [feed]
 # The number of posts to include in the feed. If set to -1, all posts.
-limit = -1
+limit = 10
 # whether to show the full text content in feed.
 fullText = true
 
@@ -705,7 +704,7 @@ userId = ""
 # Combined with Hugo's image processing option `imaging` for image optimisation
 [image]
 # cache remote images for better optimisations
-cacheRemote = true
+cacheRemote = false
 # Image resizing and optimisation (may slow builds)
 optimise = false
 # FixIt 0.4.0 | NEW A list of image file names or patterns to exclude from optimisation
@@ -801,12 +800,12 @@ hiddenFromRelated = false
 # FixIt 0.3.10 | NEW whether to hide a page from RSS, Atom and JSON feed
 hiddenFromFeed = false
 # whether to enable twemoji
-twemoji = true
+twemoji = false
 # FixIt 0.2.18 | CHANGED whether to enable lightgallery
 # set to true, images in the content will be shown as the gallery if the image has a title, e.g. ![alt](src "title")
 # set to "force", images in the content will be forced to shown as the gallery regardless of the image has a title or not, e.g. ![alt](src)
 # TODO change gallery engine in the future
-lightgallery = true
+lightgallery = false
 # whether to enable the ruby extended syntax
 ruby = true
 # whether to enable the fraction extended syntax
@@ -814,24 +813,22 @@ fraction = true
 # whether to enable the fontawesome extended syntax
 fontawesome = true
 # license info (HTML format is supported)
-# <a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
-# 先隐藏吧，版权这类事情还是后面再说吧
-license = ''
+license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
 # whether to show link to Raw Markdown content of the post
 linkToMarkdown = true
 # FixIt 0.3.0 | NEW whether to show link to view source code of the post
-linkToSource = false
+linkToSource = true
 # FixIt 0.3.0 | NEW whether to show link to edit the post
-linkToEdit = false
+linkToEdit = true
 # FixIt 0.3.0 | NEW whether to show link to report issue for the post
-linkToReport = false
+linkToReport = true
 # FixIt 0.3.20 | NEW whether to show link to view the post in VSCode
 linkToVscode = true
 # FixIt 0.3.10 | CHANGED Page style ["narrow", "normal", "wide", ...]
-pageStyle = "wide"
+pageStyle = "normal"
 # FixIt 0.2.17 | CHANGED Auto Bookmark Support
 # If true, save the reading progress when closing the page.
-autoBookmark = true
+autoBookmark = false
 # FixIt 0.4.0 | NEW whether to show the last modified time
 showLastmod = true
 # FixIt 0.2.17 | NEW whether to enable wordCount
@@ -839,17 +836,15 @@ wordCount = true
 # FixIt 0.2.17 | NEW whether to enable readingTime
 readingTime = true
 # FixIt 0.2.17 | NEW end of post flag
-endFlag = "------------ The End ------------"
+endFlag = ""
 # FixIt 0.2.18 | NEW whether to enable instant.page
-# todo 这个还不清楚是啥意思，可能是加上提交代码链接，但感觉没必要
 instantPage = false
 # FixIt 0.3.0 | NEW whether to enable collection list at the sidebar
-collectionList = true
+collectionList = false
 # FixIt 0.3.0 | NEW whether to enable collection navigation at the end of the post
-# 这个就不需要了，不然太占空间了，但对于移动端这个配置应该还是需要的
 collectionNavigation = false
 
-# FixIt 0.2.15 | NEW Repost config 转载配置
+# FixIt 0.2.15 | NEW Repost config
 [page.repost]
 enable = false
 url = ""
@@ -985,11 +980,12 @@ fullscreen = true
 
 # FixIt 0.3.0 | NEW Related content config (https://gohugo.io/content-management/related/)
 [page.related]
-enable = true
+enable = false
 count = 5
 # FixIt 0.3.20 | NEW position of related content, optional values: ["aside", "footer"]
 position = [
-  "aside"
+  "aside",
+  "footer"
 ]
 
 # FixIt 0.2.17 | NEW Donate (Sponsor) settings
@@ -1010,11 +1006,11 @@ mode = "static"
 
 # Social share links in post page
 [page.share]
-enable = false
+enable = true
 Twitter = true
 Facebook = true
 Linkedin = false
-Whatsapp = true
+Whatsapp = false
 Pinterest = false
 Tumblr = false
 HackerNews = false
@@ -1025,7 +1021,7 @@ Xing = false
 Line = false
 Instapaper = false
 Pocket = false
-Flipboard = true
+Flipboard = false
 Weibo = true
 Myspace = false
 Blogger = false

@@ -4,20 +4,19 @@
 # -------------------------------------------------------------------------------------
 
 # website title
-# title = "unfinished"
-title = "title"
+title = ""
 # Hostname (and path) to the root
-baseURL = "https://dongrentianyu.github.io/"
+baseURL = "http://localhost:1313"
 # theme list
 # theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
-defaultContentLanguage = "zh-cn"
+defaultContentLanguage = "en"
 # language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "zh-CN"
+languageCode = "en"
 # language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "简体中文"
+languageName = "English"
 # whether to include Chinese/Japanese/Korean
-hasCJKLanguage = true
+hasCJKLanguage = false
 # copyright description used only for seo schema
 copyright = ""
 # whether to use robots.txt
@@ -29,12 +28,4 @@ enableEmoji = true
 # the main sections of a site
 # if set, the MainSections method on the Site object returns the given sections,
 # otherwise it returns the section with the most pages.
-mainSections = ["posts","topics"]
-
-[module]
-
-[[module.imports]]
-path = "github.com/hugo-fixit/FixIt"
-
-[[module.imports]]
-path = "github.com/hugo-fixit/component-projects"
+# mainSections = ["posts"]
