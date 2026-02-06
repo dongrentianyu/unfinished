@@ -4,10 +4,10 @@
 # -------------------------------------------------------------------------------------
 
 [page]
-# posts = "/p/:slugorcontentbasename"
+# posts = "/p/:slug or content basename"
 
 [section]
-# posts = "/posts/:slugorcontentbasename"
+# posts = "/posts/:slug or content basename"
 
 [taxonomy]
 

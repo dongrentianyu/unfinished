@@ -11,23 +11,8 @@
 # term = ["html", "rss"]
 
 _merge = "shallow"
-home = [
-  "html",
-  "rss",
-  "archives",
-  "offline",
-  "search"
-]
-page = [
-  "html",
-  "markdown"
-]
-section = [
-  "html",
-  "rss"
-]
-taxonomy = [ "html" ]
-term = [
-  "html",
-  "rss"
-]
+home = ["html", "rss", "archives", "offline", "search"]
+page = ["html", "markdown"]
+section = ["html", "rss"]
+taxonomy = ["html"]
+term = ["html", "rss"]
