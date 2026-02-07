@@ -8,6 +8,15 @@ featuredImagePreview: "/more/site.png"
 
 ## 本站简介
 
+本站名称来源于 X JAPAN 的《unfinished》。域名后缀 WENAI 是我之前使用的。
+
+{{< aplayer fixed=false mini=false autoplay=false theme="#b7daff" loop="all" order="list" preload="auto" volume=0.7 mutex=true lrcType=3 listFolded=false listMaxHeight="" storageName="aplayer-setting" >}}
+{{< audio name="Unfinished" artist="X JAPAN - BALLAD COLLECTION"
+url="https://files.catbox.moe/4kdy06.flac"
+cover="https://p3.music.126.net/hMvHZtjBqCXLSpMu5OgqOw==/869713697571074.jpg"
+lrc="/music/unfinished.lrc" />}}
+{{< /aplayer >}}
+
 本站采用 Hugo 和 Fixit 主题，使用 Vercel 进行部署，未来会考虑购买域名。
 
 本站包含博客，知识库，文档，专栏等，内容上涉及书籍，电影，动画，游戏等，也有关于学习方法，笔记软件等相关文章。总之，我希望写下我值得去写的一切内容。

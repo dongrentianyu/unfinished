@@ -14,6 +14,13 @@ featuredImagePreview: "/more/dead-poems.jpg"
 - 副标题来自周传雄《青花》中的一句歌词
 - 封面图来源于 B 站视频[审美积累"像诗，像死"](https://www.bilibili.com/video/BV1LpqzBhE8B)
 
+{{< aplayer fixed=false mini=false autoplay=false theme="#b7daff" loop="all" order="list" preload="auto" volume=0.7 mutex=true lrcType=3 listFolded=false listMaxHeight="" storageName="aplayer-setting" >}}
+{{< audio name="青花" artist="周传雄"
+url="https://files.catbox.moe/je7yub.flac"
+cover="https://p3.music.126.net/prDyYpF9EsrLA4O13Tf5hw==/109951169874952327.jpg"
+lrc="/music/青花-周传雄.lrc" />}}
+{{< /aplayer >}}
+
 ## 关于我
 
 自称马不前,笔名源自韩愈《左迁至蓝关示侄孙湘》颈联，“云横秦岭家何在？雪拥蓝关马不前。”
