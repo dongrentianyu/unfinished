@@ -387,6 +387,14 @@ Phone = ""
 Email = "spectre-submarine@qq.com"
 RSS = true
 
+[social.vercel]
+id = "more/about"
+prefix = "https://unfinished-wenai.vercel.app/"
+Title = "Vercel"
+
+[social.vercel.icon]
+class = "fa-solid fa-square-arrow-up-right"
+
 # custom social links like the following
 # [params.social.twitter]
 # id = "lruihao"

@@ -4,9 +4,11 @@
     "aplayer",
     "autoplay",
     "beian",
+    "Bilibili",
     "busuanzi",
     "cookieconsent",
     "crosshairs",
+    "Feishu",
     "fixit",
     "fontawesome",
     "fragmentrefs",
@@ -14,6 +16,7 @@
     "gripfire",
     "lastmod",
     "lightgallery",
+    "lruihao",
     "mapbox",
     "mathjax",
     "netease",
@@ -25,9 +28,15 @@
     "Repost",
     "scrollpercent",
     "sith",
+    "Stackoverflow",
     "tagcloud",
     "twemoji",
     "typeit",
-    "WENAI"
+    "vercel",
+    "Weibo",
+    "WENAI",
+    "Youtubechannel",
+    "Youtubecustom",
+    "Youtubelegacy"
   ]
 }
