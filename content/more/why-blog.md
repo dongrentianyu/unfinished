@@ -1,5 +1,6 @@
 ---
 title: 为什么写博客
+summary: 写好博客，过好一生
 date: 2026-02-02
 weight: 1
 ---
