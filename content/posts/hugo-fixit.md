@@ -27,3 +27,20 @@ cascade:
 description:
 ---
 ```
+
+## 常用 shorts code
+
+```
+> The quick brown fox jumps over the lazy dog.
+{.blockquote-center}
+```
+
+```
+{{% fixit-encryptor "1212" "密码是 1212" %}}
+`fixit-encryptor` shortcode 在版本 {{< version 0.2.15 >}} 得到支持。
+{{% /fixit-encryptor %}}
+Or
+{{% fixit-encryptor password="1212" message="密码是 1212" %}}
+`fixit-encryptor` shortcode 在版本 {{< version 0.2.15 >}} 得到支持。
+{{% /fixit-encryptor %}}
+```
