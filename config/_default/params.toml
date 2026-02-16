@@ -395,6 +395,14 @@ Title = "Vercel"
 [social.vercel.icon]
 class = "fa-solid fa-square-arrow-up-right"
 
+[social.repo]
+id = "unfinished"
+prefix = "https://github.com/dongrentianyu/"
+Title = "GitHub Repo"
+
+[social.repo.icon]
+class = "fa-solid fa-code-commit"
+
 # custom social links like the following
 # [params.social.twitter]
 # id = "lruihao"
