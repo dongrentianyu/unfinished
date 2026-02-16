@@ -1,10 +1,9 @@
 ---
-title: 人物
+title: Software
 topics:
 cascade:
   params:
     type: posts
-    topics: people
-    draft: true
+    topics: software
 description:
 ---

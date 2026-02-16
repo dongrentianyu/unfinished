@@ -1,5 +1,6 @@
-description = "测试一下hugo"
+description = "一世风尘，也只如雪泥打他人脚底经过"
 keywords = ["Hugo", "FixIt"]
+avatar = "https://api.iconify.design/game-icons:dead-eye.svg"
 
 [author]
 name = "马不前"
@@ -9,6 +10,7 @@ avatar = "https://api.iconify.design/game-icons:dead-eye.svg"
 
 [app]
 title = "Unfinished"
+avatar = "https://api.iconify.design/game-icons:dead-eye.svg"
 
 [header]
 

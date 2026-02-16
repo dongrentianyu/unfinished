@@ -7,7 +7,7 @@ collections:
 cascade:
   params:
     type: posts
-    collections: 思考游戏
+    collections: 游戏那些事儿
   url: "/columns/thinking-game/:title"
 description:
 ---

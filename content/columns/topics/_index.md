@@ -8,6 +8,7 @@ cascade:
   params:
     type: posts
     collections: 专题
+    draft: true
   url: "/columns/topics/:title" # 自定义路径
 description:
 ---
