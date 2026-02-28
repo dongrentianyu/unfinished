@@ -1,2 +1,6 @@
 config/**/*.toml linguist-detectable
 content/**/*.md linguist-detectable
+* text=auto eol=lf
+*.md text eol=lf
+*.png binary
+*.jpg binary
