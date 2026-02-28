@@ -2,7 +2,7 @@
 title: 为什么用 Hugo 和 Fixit
 date: 2026-02-02
 ---
-
+{{< link href="https://fixit.lruihao.cn/zh-cn/" content="本站网址" card=true >}}
 ## 为什么用 Hugo 和 Fixit
 
 我最早接触博客是 TiddlyWiki，林一二开发的太记支持一键部署到 github 上，也可以通过这种方式展示知识库。最早我使用的是`WENAI`，后面转变成 rhizome。但用 TiddlyWiki 构建的博客有个问题，就是其它朋友不知道该怎么访问。他们不熟悉 TiddlyWiki 的交互方式。后面我想了想还是用常见的博客框架搭建一个博客比较好。我也不需要再去写一些页面和组件。尽管我自己写起来也比较方便，自定义比较强，但就是费心费力。想想还是算了。

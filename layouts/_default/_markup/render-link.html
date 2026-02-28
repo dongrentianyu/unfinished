@@ -1,0 +1,17 @@
+{{- $dest := .Destination -}} {{- if strings.HasSuffix $dest ".md" -}} {{- /*
+如果链接以 .md 结尾，自动调用 ref */ -}}
+<a href="{{ ref .Page $dest | safeURL }}">{{ .Text | safeHTML }}</a>
+{{- else -}} {{- /* 否则按普通链接处理 */ -}}
+<a
+  href="{{ .Destination | safeURL }}"
+  {{
+  with
+  .Title
+  }}
+  title="{{ . }}"
+  {{
+  end
+  }}
+  >{{ .Text | safeHTML }}</a
+>
+{{- end -}}
