@@ -16,7 +16,7 @@ icon = "fa-solid fa-crosshairs"
 
 [[main]]
 identifier = "archives"
-parent = "classification"
+parent = ""
 # you can add extra information before the name (HTML format is supported), such as icons
 pre = ""
 # you can add extra information after the name (HTML format is supported), such as icons
