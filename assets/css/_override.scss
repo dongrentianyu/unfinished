@@ -2,5 +2,10 @@
 // Override Variables
 // 覆盖变量
 // ==============================
+// 使用官方推荐的 CDN 方式（和 FixIt 文档里 LXGW WenKai、MMT 等字体完全一致）
+@import url("https://chinese-fonts-cdn.deno.dev/packages/zqfs/dist/ZhuqueFangsong-Regular/result.css");
+
+// 注意：字体名称必须和该包实际声明的 @font-face 一致（不是“朱雀仿宋”）
+$global-font-family: "Zhuque Fangsong (technical preview)", $global-font-family;
 // 18px
 $global-font-size: 20px;
