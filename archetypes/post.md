@@ -4,7 +4,7 @@ date:
 subtitle:
 summary:
 tags:
-categories:
+categories: Unclassified
 featuredImagePreview:
 featuredImage:
 draft: true
