@@ -1,6 +1,9 @@
 ---
 title: 推荐访问
 date: 2026-02-02
+featuredImage:
+featuredImagePreview:
+imageLink:
 ---
 
 ## 说明

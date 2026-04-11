@@ -1,8 +1,10 @@
 ---
 title: 关于本站
 date: 2026-02-02
-featuredImage: "/more/site.png"
-featuredImagePreview: "/more/site.png"
+featuredImage: /more/sites.jpg
+featuredImagePreview: /more/sites.jpg
+imageLink: https://unsplash.com/photos/old-wooden-house-with-a-bicycle-by-the-fence-g0_Kjxn1Y_E
+lastmod: 2026-04-12
 ---
 
 {{< link href="https://unfinished-wenai.vercel.app/" content="本站网址" card=true >}}
