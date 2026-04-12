@@ -10,3 +10,7 @@ $global-font-family: "Zhuque Fangsong (technical preview)", $global-font-family;
 // 18px
 $global-font-size: 1.25em;
 $global-line-height: 1.75em;
+/* ====================== 简洁 Grok 风浅色背景（官方变量覆盖）#f8f9fa ====================== */
+/* ====================== Linear 优雅简约浅色背景（官方变量覆盖） ====================== */
+$global-background-color: #f8f7f4; /* 页面整体背景 - Linear 暖米白 */
+$header-background-color: #f8f7f4; /* 导航栏同步颜色，避免割裂感 */
