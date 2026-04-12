@@ -1,5 +1,5 @@
 ---
-title: 关于本站
+title: 本站
 date: 2026-02-02
 featuredImage: /more/sites.jpg
 featuredImagePreview: /more/sites.jpg

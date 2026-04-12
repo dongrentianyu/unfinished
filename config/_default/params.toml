@@ -845,7 +845,7 @@ linkToReport = false
 # FixIt 0.3.20 | NEW whether to show link to view the post in VSCode
 linkToVscode = false
 # FixIt 0.3.10 | CHANGED Page style ["narrow", "normal", "wide", ...]
-pageStyle = "wide"
+pageStyle = "normal"
 # FixIt 0.2.17 | CHANGED Auto Bookmark Support
 # If true, save the reading progress when closing the page.
 autoBookmark = true

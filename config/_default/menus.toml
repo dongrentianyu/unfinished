@@ -80,6 +80,32 @@ weight = 4
 icon = "fa-brands fa-gripfire"
 
 [[main]]
+identifier = "models"
+parent = "classification"
+pre = ""
+post = ""
+name = "Models"
+url = "/models/"
+title = ""
+weight = 5
+
+[main.params]
+icon = "fa-solid fa-brush"
+
+[[main]]
+identifier = "others"
+parent = "classification"
+pre = ""
+post = ""
+name = "Others"
+url = "/others/"
+title = ""
+weight = 5
+
+[main.params]
+icon = "fa-solid fa-tower-observation"
+
+[[main]]
 identifier = "collections"
 parent = "classification"
 pre = ""
@@ -183,7 +209,7 @@ identifier = "why-hugo-fixit"
 parent = "more"
 pre = ""
 post = ""
-name = "Why Hugo Fixit"
+name = "Why Hugo"
 url = "/more/why-hugo-fixit/"
 title = ""
 weight = 7
