@@ -1,4 +1,31 @@
 {
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+
+  // 对特定文件类型单独关闭格式化
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "[toml]": {
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+
+  // 如果你安装了 Prettier 或其他格式化工具，强制关闭
+  "prettier.enable": false,
+  "editor.defaultFormatter": null,
+  "files.associations": {
+    "*.md": "markdown",
+    "config.toml": "toml",
+    "hugo.toml": "toml"
+  },
   "cSpell.words": [
     "anchorify",
     "Angellist",
