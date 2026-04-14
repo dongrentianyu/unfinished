@@ -1,6 +1,7 @@
 ---
 title: 专题
 date: 2026-02-08
+portals: columns
 subtitle: "专题说明"
 url: "/columns/topics/"
 collections:

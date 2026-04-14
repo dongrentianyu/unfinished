@@ -15,6 +15,18 @@ weight = 2
 icon = "fa-solid fa-crosshairs"
 
 [[main]]
+identifier = "portals"
+parent = ""
+pre = ""
+post = ""
+name = "Portals"
+url = "/portals/"
+title = "传送门"
+weight = 4
+[main.params]
+icon = "fa-solid fa-jedi"
+
+[[main]]
 identifier = "archives"
 parent = ""
 # you can add extra information before the name (HTML format is supported), such as icons
@@ -25,7 +37,7 @@ name = "Archives"
 url = "/archives/"
 # title will be shown when you hover on this menu link
 title = ""
-weight = 5
+weight = 3
 
 # FixIt 0.2.14 | NEW add user-defined content to menu items
 [main.params]
@@ -80,17 +92,18 @@ weight = 4
 icon = "fa-brands fa-gripfire"
 
 [[main]]
-identifier = "models"
+identifier = "threads"
 parent = "classification"
 pre = ""
 post = ""
-name = "Models"
-url = "/models/"
+name = "Threads"
+url = "/threads/"
 title = ""
 weight = 5
 
 [main.params]
-icon = "fa-solid fa-brush"
+icon = "fa-solid fa-meteor"
+
 
 [[main]]
 identifier = "others"
@@ -100,10 +113,24 @@ post = ""
 name = "Others"
 url = "/others/"
 title = ""
-weight = 5
+weight = 6
 
 [main.params]
 icon = "fa-solid fa-tower-observation"
+
+[[main]]
+identifier = "models"
+parent = "classification"
+pre = ""
+post = ""
+name = "Models"
+url = "/models/"
+title = ""
+weight = 7
+
+[main.params]
+icon = "fa-solid fa-brush"
+
 
 [[main]]
 identifier = "collections"

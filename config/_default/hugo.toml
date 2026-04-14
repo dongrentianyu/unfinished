@@ -30,7 +30,15 @@ enableEmoji = true
 # the main sections of a site
 # if set, the MainSections method on the Site object returns the given sections,
 # otherwise it returns the section with the most pages.
-mainSections = ["posts", "topics", "more", "others", "models"]
+mainSections = [
+  "posts",
+  "topics",
+  "more",
+  "others",
+  "models",
+  "threads",
+  "portals",
+]
 
 [module]
 

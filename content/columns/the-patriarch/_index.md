@@ -4,6 +4,7 @@ date: 2026-02-06
 slug: "the-patriarch" # URL 保持英文
 url: "/columns/the-patriarch/"
 collections:
+portals: columns
 cascade:
   params:
     type: posts

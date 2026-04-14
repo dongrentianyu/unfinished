@@ -1,11 +1,11 @@
 ---
-title: Software
-topics:
-portals: topics
+title: Chat
+portals: thread
 date: 2026-04-14
+threads:
 cascade:
   params:
     type: posts
-    topics: software
+    threads: chat
 description:
 ---
