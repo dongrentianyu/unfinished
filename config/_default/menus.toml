@@ -14,17 +14,7 @@ weight = 2
 [main.params]
 icon = "fa-solid fa-crosshairs"
 
-[[main]]
-identifier = "portals"
-parent = ""
-pre = ""
-post = ""
-name = "Portals"
-url = "/portals/"
-title = "传送门"
-weight = 4
-[main.params]
-icon = "fa-solid fa-jedi"
+
 
 [[main]]
 identifier = "archives"
@@ -36,8 +26,8 @@ post = ""
 name = "Archives"
 url = "/archives/"
 # title will be shown when you hover on this menu link
-title = ""
-weight = 3
+title = "归档"
+weight = 4
 
 # FixIt 0.2.14 | NEW add user-defined content to menu items
 [main.params]
@@ -243,3 +233,86 @@ weight = 7
 
 [main.params]
 icon = "fa-brands fa-ethereum"
+
+[[main]]
+identifier = "contact"
+parent = ""
+pre = ""
+post = ""
+name = "Contact"
+title = "联系"
+weight = 3
+[main.params]
+icon = "fa-solid fa-mug-saucer"
+
+[[main]]
+identifier = "portals"
+parent = "contact"
+pre = ""
+post = "&emsp;<i class='fa-solid fa-angles-right'></i>"
+name = "Portals"
+url = "/portals/"
+title = "传送门"
+weight = 1
+[main.params]
+icon = "fa-solid fa-compass-drafting"
+
+[[main]]
+identifier = "vercel"
+parent = "contact"
+pre = ""
+post = ""
+name = "Vercel"
+url = "https://unfinished-wenai.vercel.app/"
+title = "Vercel Link"
+weight = 2
+[main.params]
+icon = "fa-solid fa-square-arrow-up-right"
+
+[[main]]
+identifier = "repo"
+parent = "contact"
+pre = ""
+post = ""
+name = "Repo"
+url = "https://github.com/dongrentianyu/unfinished"
+title = "GitHub Repo"
+weight = 3
+[main.params]
+icon = "fa-solid fa-code-commit"
+
+[[main]]
+identifier = "GitHub"
+parent = "contact"
+pre = ""
+post = ""
+name = "GitHub"
+url = "https://github.com/dongrentianyu/"
+title = "GitHub"
+weight = 4
+[main.params]
+icon = "fa-brands fa-github-alt"
+
+[[main]]
+identifier = "email"
+parent = "contact"
+pre = ""
+post = ""
+name = "Email"
+url = "mailto:spectre-submarine@qq.com"
+title = "Email"
+weight = 5
+[main.params]
+icon = "fa-regular fa-envelope"
+
+[[main]]
+identifier = "rss"
+parent = "contact"
+pre = ""
+post = ""
+name = "RSS"
+url = "https://unfinished-wenai.vercel.app/index.xml"
+title = "RSS"
+weight = 6
+[main.params]
+icon = "fa-solid fa-rss"
