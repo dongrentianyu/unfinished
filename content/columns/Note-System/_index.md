@@ -1,13 +1,10 @@
 ---
 title: 笔记系统
-url: "/columns/note-system/"
+columns:
 date: 2026-02-21
-collections:
 portals: columns
 cascade:
   params:
     type: posts
-    collections: note-system
-    url: "/columns/note-system/:title"
-description:
+    columns: note-system
 ---

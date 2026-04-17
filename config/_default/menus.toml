@@ -121,6 +121,18 @@ weight = 7
 [main.params]
 icon = "fa-solid fa-brush"
 
+[[main]]
+identifier = "columns"
+parent = "classification"
+pre = ""
+post = ""
+name = "Columns"
+url = "/columns/"
+title = ""
+weight = 4
+
+[main.params]
+icon = "fa-brands fa-redhat"
 
 [[main]]
 identifier = "collections"

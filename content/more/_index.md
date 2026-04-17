@@ -3,7 +3,7 @@ title: 更多
 date: 2026-04-14
 layout: "taxonomy"
 collections:
-portals: columns
+portals: port
 cascade:
   params:
     type: posts

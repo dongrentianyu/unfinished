@@ -1,13 +1,10 @@
 ---
 title: Study
-url: "/columns/study/"
 date: 2026-02-21
-collections:
+columns:
 portals: columns
 cascade:
   params:
     type: posts
-    collections: study
-    url: "/columns/study/:title"
-description:
+    columns: study
 ---

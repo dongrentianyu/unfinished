@@ -1,14 +1,11 @@
 ---
 title: 思考游戏
 date: 2026-02-07
-subtitle: "为什么要玩游戏呢"
-url: "/columns/thinking-game/"
 portals: columns
-collections:
+columns:
 cascade:
   params:
     type: posts
-    collections: 游戏那些事儿
-  url: "/columns/thinking-game/:title"
+    columns: thinking-game
 description:
 ---

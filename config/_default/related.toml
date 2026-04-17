@@ -84,6 +84,15 @@ pattern = ''
 toLower = false
 type = 'basic'
 weight = 10
+
+[[indices]]
+applyFilter = false
+cardinalityThreshold = 0
+name = 'columns'
+pattern = ''
+toLower = false
+type = 'basic'
+weight = 10
 # [[indices]]
 # applyFilter = false
 # cardinalityThreshold = 0
