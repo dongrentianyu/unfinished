@@ -3,7 +3,7 @@ title: hugo 和 fixit 备忘录
 summary: 记下一些备忘
 date: 2026-02-07
 tags:
-  - 博客写作
+  - HUGO
 ---
 
 ## 借用 cascade 进行批量设置

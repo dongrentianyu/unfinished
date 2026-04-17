@@ -4,6 +4,7 @@ subtitle:
 date: 2026-02-04
 summary: Hugo FixIt 博客模板（Go）
 tags:
+  - HUGO
 categories:
 collections:
 ---
