@@ -4,9 +4,11 @@ date: 2026-04-11
 subtitle: 关于时间，我们讨论的只是我们的生活。
 portals: columns
 columns:
+collections:
 cascade:
   params:
     type: posts
     columns: time-life
+    collections: 时间管理
 description:
 ---
