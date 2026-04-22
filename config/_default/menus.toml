@@ -233,18 +233,32 @@ weight = 6
 [main.params]
 icon = "fa-solid fa-feather-pointed"
 
-[[main]]
-identifier = "why-hugo-fixit"
-parent = "more"
-pre = ""
-post = ""
-name = "Why Hugo"
-url = "/more/why-hugo-fixit/"
-title = ""
-weight = 7
+# [[main]]
+# identifier = "why-hugo-fixit"
+# parent = "more"
+# pre = ""
+# post = ""
+# name = "Why Hugo"
+# url = "/more/why-hugo-fixit/"
+# title = ""
+# weight = 7
 
-[main.params]
-icon = "fa-brands fa-ethereum"
+# [main.params]
+# icon = "fa-brands fa-ethereum"
+
+# 暂时不添加吧，后面有需要再添加回来
+# [[main]]
+# identifier = "micro-blog"
+# parent = "more"
+# pre = ""
+# post = ""
+# name = "Micro blog"
+# url = "/more/micro-blog/"
+# title = ""
+# weight = 8
+
+# [main.params]
+# icon = "fa-brands fa-d-and-d"
 
 [[main]]
 identifier = "contact"

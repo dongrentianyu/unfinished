@@ -1,0 +1,7 @@
+{{/* layouts/shortcodes/micro-blog.html */}}
+<div class="micro-blog-entry">
+  <div class="date">{{ .Get "date" }}</div>
+  <div class="content">
+    {{ .Inner | markdownify }}
+  </div>
+</div>

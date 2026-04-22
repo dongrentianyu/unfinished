@@ -2,3 +2,55 @@
 // Custom style
 // 自定义样式
 // ==============================
+/* Micro blog 微博样式 - 完美适配 FixIt（data-theme 暗黑模式） */
+.micro-blog-entry {
+  background: #f8f7f4;
+  border-radius: 18px;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+
+  .date {
+    color: #888;
+    font-size: 0.75rem;
+    margin-bottom: 14px;
+    font-weight: 500;
+  }
+
+  .content {
+    font-size: 0.75rem;
+    line-height: 1.75;
+    color: #333;
+  }
+}
+
+/* ================ FixIt 暗黑模式（关键选择器） ================ */
+[data-theme="dark"] .micro-blog-entry,
+.dark .micro-blog-entry {
+  background: #252627;
+  border-color: #3a3a3e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .micro-blog-entry .date,
+.dark .micro-blog-entry .date {
+  color: #a3a3a8;
+}
+
+[data-theme="dark"] .micro-blog-entry .content,
+.dark .micro-blog-entry .content {
+  color: #e4e4e7;
+}
+
+/* 悬停效果（更现代） */
+.micro-blog-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .micro-blog-entry:hover,
+.dark .micro-blog-entry:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
