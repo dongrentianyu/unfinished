@@ -207,18 +207,18 @@ weight = 4
 [main.params]
 icon = "fa-solid fa-link"
 
-# [[main]]
-# identifier = "recommend"
-# parent = "more"
-# pre = ""
-# post = ""
-# name = "Recommend"
-# url = "/more/recommend/"
-# title = ""
-# weight = 5
+[[main]]
+identifier = "recommend"
+parent = "more"
+pre = ""
+post = ""
+name = "Recommend"
+url = "/more/recommend/"
+title = ""
+weight = 5
 
-# [main.params]
-# icon = "fa-solid fa-hammer"
+[main.params]
+icon = "fa-solid fa-hammer"
 
 [[main]]
 identifier = "why-blog"

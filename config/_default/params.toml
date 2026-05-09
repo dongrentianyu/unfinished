@@ -856,7 +856,7 @@ wordCount = true
 # FixIt 0.2.17 | NEW whether to enable readingTime
 readingTime = true
 # FixIt 0.2.17 | NEW end of post flag
-endFlag = "------------ The End ------------"
+endFlag = "------------------ The End ------------------"
 # FixIt 0.2.18 | NEW whether to enable instant.page
 # todo 这个还不清楚是啥意思，可能是加上提交代码链接，但感觉没必要
 instantPage = false
