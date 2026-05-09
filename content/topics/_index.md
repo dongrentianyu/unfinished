@@ -1,5 +1,5 @@
 ---
-title: 格物
+title: 褶翼
 date: 2026-04-14
 layout: "taxonomy"
 portals: port

@@ -1,5 +1,5 @@
 ---
-title: Game
+title: 游戏
 topics:
 portals: topics
 date: 2026-04-14

@@ -1,5 +1,5 @@
 ---
-title: Software
+title: 软件
 topics:
 portals: topics
 date: 2026-04-14
