@@ -17,6 +17,7 @@ imageLink:
 - [宇宙尽头的餐馆](https://www.flyalready.com)
 - [天仙子](https://www.tianxianzi.me/)
 - [Prologue](https://prologue.dev/)
+- [滑翔闪](https://blog.huaxiangshan.com/zh-cn/)
 
 ## B 站 UP 主
 
