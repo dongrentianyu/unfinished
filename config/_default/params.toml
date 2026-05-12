@@ -6,7 +6,7 @@
 # FixIt 0.2.15 | CHANGED FixIt theme version
 version = "0.4.2" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
 # site description
-description = "这是一个测试网站，测试hugo"
+description = ""
 # site keywords
 keywords = []
 # site default theme ["light", "dark", "auto"]
@@ -166,7 +166,7 @@ enable = true
 sticky = true
 showHome = true
 # FixIt 0.3.13 | NEW
-separator = "/"
+separator = "§"
 capitalize = true
 
 # FixIt 0.3.10 | NEW Post navigation config
