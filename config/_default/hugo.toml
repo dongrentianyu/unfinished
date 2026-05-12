@@ -39,6 +39,7 @@ mainSections = [
   "threads",
   "portals",
   "columns",
+  "page"
 ]
 
 [module]

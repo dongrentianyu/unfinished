@@ -2,6 +2,37 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+// 让单页面的文件标题保持居中，剩下的内容就由自定义css控制了
+.special .single-title, .special .single-subtitle {
+  text-align: center;
+}
+/* 默认（包括笔记本）给一个舒适的最大宽度，且居中 */
+@media only screen and (min-width: 759px){
+  .page, .breadcrumb-container .breadcrumb {
+    width:ROUND(70%, 2px);
+    max-width: 1200px;   /* 内容不会超过1200px，防止过宽 */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .page.single,.breadcrumb-container .breadcrumb{
+    width: ROUND(55%, 2px);
+    max-width: 1200px;
+  }
+}
+
+/* 当屏幕真的很宽（比如 >1800px）时，可以放宽到80%宽度，但仍限制最大宽度 */
+@media only screen and (min-width: 1800px) {
+  .page, .breadcrumb-container .breadcrumb {
+      width: ROUND(80%, 2px);
+      max-width: 1600px; /* 随心调整 */
+  }
+  .page.single,.breadcrumb-container .breadcrumb{
+    width:ROUND(60%, 2px);
+    max-width: 1200px;
+  }
+}
+
 /* Micro blog 微博样式 - 完美适配 FixIt（data-theme 暗黑模式） */
 .micro-blog-entry {
   background: #f8f7f4;
