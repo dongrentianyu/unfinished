@@ -5,8 +5,9 @@ avatar = "https://api.iconify.design/game-icons:dead-eye.svg"
 [author]
 name = "马不前"
 email = ""
-link = ""
-avatar = "https://api.iconify.design/game-icons:dead-eye.svg"
+link = "/more/about"
+avatar = "https://api.iconify.design/game-icons:ink-swirl.svg"
+
 
 [app]
 title = "Unfinished"
@@ -15,7 +16,7 @@ avatar = "https://api.iconify.design/game-icons:dead-eye.svg"
 [header]
 
 [header.title]
-logo = "https://api.iconify.design/game-icons:dead-eye.svg"
+logo = "https://api.iconify.design/game-icons:cross-mark.svg"
 
 [home]
 

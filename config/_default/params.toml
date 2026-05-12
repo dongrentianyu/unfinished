@@ -143,7 +143,7 @@ mobileMode = "auto"
 # Header title config
 [header.title]
 # URL of the LOGO
-logo = "https://api.iconify.design/game-icons:dead-eye.svg"
+logo = "https://api.iconify.design/game-icons:burning-tree.svg"
 # title name
 name = ""
 # you can add extra information before the name (HTML format is supported), such as icons
@@ -158,7 +158,7 @@ typeit = false
 # subtitle name
 name = "活在别样的生活里"
 # whether to use typeit animation for subtitle name
-typeit = true
+typeit = false
 
 # FixIt 0.2.18 | NEW Breadcrumb config
 [breadcrumb]
@@ -279,7 +279,7 @@ onlyFirstPage = true
 # Gravatar Email for preferred avatar in home page
 gravatarEmail = ""
 # URL of avatar shown in home page, default is author's avatar
-avatarURL = ""
+avatarURL = "https://api.iconify.design/game-icons:dead-eye.svg"
 # FixIt 0.2.17 | NEW identifier of avatar menu link
 avatarMenu = ""
 # title shown in home page (HTML format is supported)
