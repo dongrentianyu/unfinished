@@ -18,6 +18,7 @@ imageLink:
 - [天仙子](https://www.tianxianzi.me/)
 - [Prologue](https://prologue.dev/)
 - [滑翔闪](https://blog.huaxiangshan.com/zh-cn/)
+- [2750 words](https://pathos.page/)
 
 ## B 站 UP 主
 

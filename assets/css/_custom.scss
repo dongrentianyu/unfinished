@@ -15,7 +15,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .page.single,.breadcrumb-container .breadcrumb{
+  .page.single,.page.archive, .breadcrumb-container .breadcrumb{
     width: ROUND(55%, 2px);
     max-width: 1200px;
   }
@@ -27,7 +27,7 @@
       width: ROUND(80%, 2px);
       max-width: 1600px; /* 随心调整 */
   }
-  .page.single,.breadcrumb-container .breadcrumb{
+  .page.single,.page.archive,.breadcrumb-container .breadcrumb{
     width:ROUND(60%, 2px);
     max-width: 1200px;
   }
