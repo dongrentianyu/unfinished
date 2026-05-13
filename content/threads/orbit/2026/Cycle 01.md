@@ -54,6 +54,10 @@ draft: false
 
 不知道有没有人能体会出这两句话的不同。
 
+* 爱情是哲学问题
+* 恋爱是一个哲学问题
+
+
 [^1]: https://www.reddit.com/r/grammar/comments/3rtbe3/comment/no6y8hh/?tl=zh-hans&utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
 
 [^2]: https://m.cmx.im/@Solaris_0204/116446725555969211
