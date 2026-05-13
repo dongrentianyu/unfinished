@@ -23,6 +23,7 @@ date: 2026-02-02
 - 《海上钢琴师》
 - 《新世界》
 - 《美国往事》
+- 《守望者》
 
 ## 电视剧
 
@@ -42,11 +43,13 @@ date: 2026-02-02
 
 - Athletics《Who You Are Is Not Enough》专辑
 - 中島美嘉《曾经我也想过一了百了》
+- 《The Sound Of Silence》
 
 ## 音乐人
 
 * X Japan
 * 伍佰
+* MJ
 
 ## 诗人
 
