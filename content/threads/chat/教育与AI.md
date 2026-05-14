@@ -11,6 +11,7 @@ featuredImagePreview:
 featuredImage:
 draft: false
 imageLink:
+slug: education-and-ai
 ---
 
 <!--more-->

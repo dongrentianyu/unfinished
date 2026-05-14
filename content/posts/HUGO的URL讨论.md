@@ -10,6 +10,7 @@ featuredImagePreview:
 featuredImage:
 draft: false
 imageLink:
+slug: hugo-url-discussion
 ---
 
 <!--more-->

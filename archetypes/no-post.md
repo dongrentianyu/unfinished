@@ -1,5 +1,6 @@
 ---
 title:
+slug:
 date:
 lastmod:
 subtitle:
