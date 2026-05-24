@@ -4,92 +4,48 @@
 # -------------------------------------------------------------------------------------
 
 [[main]]
-identifier = "classification"
-parent = ""
-pre = ""
-post = ""
-name = "Classification"
-title = "分类"
-weight = 2
-[main.params]
-icon = "fa-solid fa-crosshairs"
-
-
-
-[[main]]
-identifier = "archives"
+identifier = "type"
 parent = ""
 # you can add extra information before the name (HTML format is supported), such as icons
 pre = ""
 # you can add extra information after the name (HTML format is supported), such as icons
 post = ""
-name = "Archives"
-url = "/archives/"
+name = "Type"
 # title will be shown when you hover on this menu link
-title = "归档"
-weight = 4
-
-# FixIt 0.2.14 | NEW add user-defined content to menu items
-[main.params]
-# add css class to a specific menu item
-class = ""
-# whether set as a draft menu item whose function is similar to a draft post/page
-draft = false
-# FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item
-icon = "fa-solid fa-archive"
-# FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
-type = ""
-# FixIt 0.3.9 | NEW whether to show the submenu item divider line
-divided = false
-
-[[main]]
-identifier = "categories"
-parent = "classification"
-pre = ""
-post = ""
-name = "Categories"
-url = "/categories/"
 title = ""
 weight = 2
-
 [main.params]
-icon = "fa-solid fa-folder-tree"
+icon = "fa-solid fa-crosshairs"
 
 [[main]]
-identifier = "tags"
-parent = "classification"
-pre = ""
-post = ""
-name = "Tags"
-url = "/tags/"
-title = ""
-weight = 3
+identifier = "columns"
+parent = "type"
+name = "Columns"
+url = "/columns/"
+title = "专栏"
+weight = 1
 
 [main.params]
-icon = "fa-solid fa-tags"
+icon = "fa-brands fa-redhat"
 
 [[main]]
 identifier = "topics"
-parent = "classification"
-pre = ""
-post = ""
+parent = "type"
 name = "Topics"
 url = "/topics/"
-title = ""
-weight = 4
+title = "风雅颂"
+weight = 2
 
 [main.params]
 icon = "fa-brands fa-gripfire"
 
 [[main]]
 identifier = "threads"
-parent = "classification"
-pre = ""
-post = ""
+parent = "type"
 name = "Threads"
 url = "/threads/"
-title = ""
-weight = 5
+title = "线程"
+weight = 3
 
 [main.params]
 icon = "fa-solid fa-meteor"
@@ -97,60 +53,27 @@ icon = "fa-solid fa-meteor"
 
 [[main]]
 identifier = "others"
-parent = "classification"
-pre = ""
-post = ""
+parent = "type"
 name = "Others"
 url = "/others/"
-title = ""
-weight = 6
+title = "他山之石"
+weight = 4
 
 [main.params]
 icon = "fa-solid fa-tower-observation"
 
 [[main]]
 identifier = "models"
-parent = "classification"
-pre = ""
-post = ""
+parent = "type"
 name = "Models"
 url = "/models/"
-title = ""
-weight = 7
-
+title = "大模型"
+weight = 5
 [main.params]
 icon = "fa-solid fa-brush"
 
 [[main]]
-identifier = "columns"
-parent = "classification"
-pre = ""
-post = ""
-name = "Columns"
-url = "/columns/"
-title = ""
-weight = 4
-
-[main.params]
-icon = "fa-brands fa-redhat"
-
-[[main]]
-identifier = "collections"
-parent = "classification"
-pre = ""
-post = ""
-name = "Collections"
-url = "/collections/"
-title = ""
-weight = 1
-[main.params]
-icon = "fa-solid fa-grip"
-
-[[main]]
 identifier = "more"
-parent = ""
-pre = ""
-post = ""
 name = "More"
 title = "更多"
 weight = 1
@@ -160,11 +83,9 @@ icon = "fa-solid fa-hexagon-nodes"
 [[main]]
 identifier = "about"
 parent = "more"
-pre = ""
-post = ""
 name = "About"
 url = "/more/about"
-title = ""
+title = "关于我"
 weight = 1
 [main.params]
 icon = "fa-solid fa-address-card"
@@ -172,11 +93,9 @@ icon = "fa-solid fa-address-card"
 [[main]]
 identifier = "site"
 parent = "more"
-pre = ""
-post = ""
 name = "Site"
 url = "/more/site"
-title = ""
+title = "本站"
 weight = 2
 [main.params]
 icon = "fa-solid fa-cookie-bite"
@@ -197,39 +116,30 @@ icon = "fa-solid fa-cookie-bite"
 [[main]]
 identifier = "links"
 parent = "more"
-pre = ""
-post = ""
 name = "Links"
 url = "/more/links/"
-title = ""
-weight = 4
-
+title = "链接"
+weight = 3
 [main.params]
 icon = "fa-solid fa-link"
 
 [[main]]
 identifier = "recommend"
 parent = "more"
-pre = ""
-post = ""
 name = "Recommend"
 url = "/more/recommend/"
-title = ""
-weight = 5
-
+title = "推荐"
+weight = 4
 [main.params]
 icon = "fa-solid fa-hammer"
 
 [[main]]
 identifier = "why-blog"
 parent = "more"
-pre = ""
-post = ""
 name = "Why Blog"
 url = "/more/why-blog/"
-title = ""
-weight = 6
-
+title = "为什么写博客"
+weight = 5
 [main.params]
 icon = "fa-solid fa-feather-pointed"
 
@@ -262,9 +172,6 @@ icon = "fa-solid fa-feather-pointed"
 
 [[main]]
 identifier = "contact"
-parent = ""
-pre = ""
-post = ""
 name = "Contact"
 title = "联系"
 weight = 3
@@ -272,73 +179,123 @@ weight = 3
 icon = "fa-solid fa-mug-saucer"
 
 [[main]]
-identifier = "portals"
-parent = "contact"
-pre = ""
-post = "&emsp;<i class='fa-solid fa-angles-right'></i>"
-name = "Portals"
-url = "/portals/"
-title = "传送门"
-weight = 1
-[main.params]
-icon = "fa-solid fa-compass-drafting"
-
-[[main]]
 identifier = "vercel"
 parent = "contact"
-pre = ""
-post = ""
 name = "Vercel"
 url = "https://unfinished-wenai.vercel.app/"
 title = "Vercel Link"
-weight = 2
+weight = 1
 [main.params]
 icon = "fa-solid fa-square-arrow-up-right"
 
 [[main]]
 identifier = "repo"
 parent = "contact"
-pre = ""
-post = ""
 name = "Repo"
 url = "https://github.com/dongrentianyu/unfinished"
 title = "GitHub Repo"
-weight = 3
+weight = 2
 [main.params]
 icon = "fa-solid fa-code-commit"
 
 [[main]]
 identifier = "GitHub"
 parent = "contact"
-pre = ""
-post = ""
 name = "GitHub"
 url = "https://github.com/dongrentianyu/"
 title = "GitHub"
-weight = 4
+weight = 3
 [main.params]
 icon = "fa-brands fa-github-alt"
 
 [[main]]
 identifier = "email"
 parent = "contact"
-pre = ""
-post = ""
 name = "Email"
 url = "mailto:spectre-submarine@qq.com"
 title = "Email"
-weight = 5
+weight = 4
 [main.params]
 icon = "fa-regular fa-envelope"
 
 [[main]]
 identifier = "rss"
 parent = "contact"
-pre = ""
-post = ""
 name = "RSS"
 url = "https://unfinished-wenai.vercel.app/index.xml"
 title = "RSS"
-weight = 6
+weight = 5
 [main.params]
 icon = "fa-solid fa-rss"
+
+[[main]]
+identifier = "inside"
+name = "Inside"
+title = "内部"
+weight = 4
+[main.params]
+icon = "fa-brands fa-battle-net"
+
+[[main]]
+identifier = "collections"
+parent = "inside"
+name = "Collections"
+url = "/collections/"
+title = "合集"
+weight = 1
+[main.params]
+icon = "fa-solid fa-grip"
+
+[[main]]
+identifier = "categories"
+parent = "inside"
+name = "Categories"
+url = "/categories/"
+title = "分类"
+weight = 2
+
+[main.params]
+icon = "fa-solid fa-folder-tree"
+
+[[main]]
+identifier = "tags"
+parent = "inside"
+name = "Tags"
+url = "/tags/"
+title = "标签"
+weight = 3
+[main.params]
+icon = "fa-solid fa-tags"
+
+[[main]]
+identifier = "portals"
+parent = "inside"
+pre = ""
+post = "&emsp;<i class='fa-solid fa-angles-right'></i>"
+name = "Portals"
+url = "/portals/"
+title = "传送门"
+weight = 4
+[main.params]
+icon = "fa-solid fa-compass-drafting"
+
+[[main]]
+identifier = "archives"
+parent = "inside"
+name = "Archives"
+url = "/archives/"
+title = "归档"
+weight = 5
+
+# FixIt 0.2.14 | NEW add user-defined content to menu items
+[main.params]
+# add css class to a specific menu item
+class = ""
+# whether set as a draft menu item whose function is similar to a draft post/page
+draft = false
+# FixIt 0.2.16 | NEW add fontawesome icon to a specific menu item
+icon = "fa-solid fa-archive"
+# FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
+type = ""
+# FixIt 0.3.9 | NEW whether to show the submenu item divider line
+divided = false
