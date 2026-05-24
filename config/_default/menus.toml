@@ -174,7 +174,7 @@ icon = "fa-solid fa-feather-pointed"
 identifier = "contact"
 name = "Contact"
 title = "联系"
-weight = 3
+weight = 4
 [main.params]
 icon = "fa-solid fa-mug-saucer"
 
@@ -232,7 +232,7 @@ icon = "fa-solid fa-rss"
 identifier = "inside"
 name = "Inside"
 title = "内部"
-weight = 4
+weight = 3
 [main.params]
 icon = "fa-brands fa-battle-net"
 
