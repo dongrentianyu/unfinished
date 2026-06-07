@@ -7,6 +7,7 @@ tags:
 summary:
 featuredImagePreview:
 featuredImage:
+draft: true
 ---
 
 <!--more-->

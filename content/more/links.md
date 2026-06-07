@@ -19,6 +19,8 @@ imageLink:
 - [Prologue](https://prologue.dev/)
 - [滑翔闪](https://blog.huaxiangshan.com/zh-cn/)
 - [2750 words](https://pathos.page/)
+- [学习者的数字乐园](https://pimgeek.com/notes/)
+- [Andy Matuschak](https://andymatuschak.org/)
 
 ## B 站 UP 主
 
