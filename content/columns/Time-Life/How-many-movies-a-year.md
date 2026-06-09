@@ -7,7 +7,7 @@ tags:
 categories:
 featuredImagePreview: /columns/movie-posts.jpg
 featuredImage: /columns/movie-posts.jpg
-draft: false
+draft: true
 imageLink:
 ---
 
