@@ -9,4 +9,5 @@ cascade:
     type: posts
     columns: Compass
     collections: 指南
+    draft: true
 ---
