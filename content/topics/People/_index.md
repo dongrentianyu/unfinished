@@ -7,6 +7,6 @@ cascade:
   params:
     type: posts
     topics: people
-    draft: true
+    draft: false
 description:
 ---
