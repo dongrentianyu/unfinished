@@ -8,6 +8,7 @@ tags:
 categories:
 collections:
 ---
+<!--more-->
 
 # Hugo FixIt 博客模板（Go）
 

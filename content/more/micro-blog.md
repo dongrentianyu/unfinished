@@ -5,6 +5,7 @@ layout: single
 type: _default
 draft: true
 ---
+<!--more-->
 
 {{< micro-blog date="2026-04-21" >}}
 在这遍布偶然成功和普遍平庸的世界里，唯一的自由就是面对世界时的自我姿态。

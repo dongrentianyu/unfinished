@@ -5,6 +5,7 @@ date: 2026-02-07
 tags:
   - HUGO
 ---
+<!--more-->
 
 ## 借用 cascade 进行批量设置
 

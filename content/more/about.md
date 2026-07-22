@@ -7,6 +7,7 @@ date: 2026-02-02
 featuredImage: "/more/dead-poems.jpg"
 featuredImagePreview: "/more/dead-poems.jpg"
 ---
+<!--more-->
 
 ## 说明
 

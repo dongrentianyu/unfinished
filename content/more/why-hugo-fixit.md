@@ -2,6 +2,8 @@
 title: " Hugo 和 Fixit"
 date: 2026-02-02
 ---
+<!--more-->
+
 {{< link href="https://fixit.lruihao.cn/zh-cn/" content="本站网址" card=true >}}
 ## 为什么用 Hugo？
 
